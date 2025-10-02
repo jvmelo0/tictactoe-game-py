@@ -23,8 +23,6 @@
     O outro jogador precisa estar com o cliente em sua máquina. </li> <br>
   <li> Both players must be connected to the same Internet network. <br>
     Ambos precisam estar conectados na mesma rede de Internet. </li> <br>
-  <li> The player with the server must obtain their own IP address and enter it into the server code. <br> 
-    O jogador com o servidor precisa conseguir o seu endereço de IP e informar dentro do código do servidor. </li> <br>
   <li> The player with the client must enter the other player's IP address into their program while it is running. <br>
     O jogador com o cliente precisa informar o endereço de IP do outro em seu programa enquanto excecutar. </li>
 </ol>
@@ -34,6 +32,7 @@ cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ip_servidor = input('Digite o IP do servidor: ')
 cliente.connect((ip_servidor, 5000))
 ```
+<img width="349" height="26" alt="image" src="https://github.com/user-attachments/assets/f5e31627-032c-417e-aee1-cb96b52dd59d" />
 
 ## :bust_in_silhouette:	Collaborators / Colaboradores
 <p align="left"> João Vitor Melo </p>
